@@ -1,5 +1,3 @@
-//i broke my git?
-
 "dota_shops"
 {
 	"consumables"
