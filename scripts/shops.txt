@@ -14,7 +14,13 @@
 		"item"		"item_tome_of_knowledge"
 		"item"		"item_dust"	
 		"item"		"item_bottle"
-        "item"      "item_keen_optic"
+
+		"item"		"item_royal_jelly"
+		"item"		"item_mango_tree"
+		"item"		"item_greater_faerie_fire"
+		"item"		"item_repair_kit"
+		"item"		"item_fusion_rune"
+		"item"		"item_phoenix_ash"
 	}
 
 	"attributes"
@@ -43,6 +49,9 @@
 		"item"		"item_river_painter3"	
 		"item"		"item_river_painter2"	
 		"item"		"item_river_painter"	
+
+		"item"		"item_pupils_gift"
+		"item"		"item_ocean_heart"
 	}
 
 	"weapons_armor"
@@ -61,6 +70,11 @@
 		"item"		"item_broadsword"
 		"item"		"item_claymore"				
 		"item"		"item_mithril_hammer"	
+
+		"item"		"item_broom_handle"
+		"item"		"item_grove_bow"
+		"item"		"item_mind_breaker"
+		"item"		"item_minotaur_horn"
 	}
 			
 	"misc"
@@ -77,7 +91,13 @@
 		"item"		"item_lifesteal"
 		"item"		"item_shadow_amulet"	
 		"item"		"item_ghost"
-		"item"		"item_blink"		
+		"item"		"item_blink"
+
+		"item"		"item_clumsy_net"
+		"item"		"item_dragon_scale"
+		"item"		"item_keen_optic"
+		"item"		"item_nether_shawl"
+		"item"		"item_philosophers_stone"		
 	}	
 	
 	// Level 1 - Green Recipes
@@ -96,7 +116,15 @@
  		"item"		"item_helm_of_the_dominator"	
 		"item"		"item_hand_of_midas"
 		"item"		"item_travel_boots"		
-		"item"		"item_moon_shard"				
+		"item"		"item_moon_shard"
+
+		"item"		"item_recipe_ironwood_tree"
+		"item"		"item_trusty_shovel"
+		"item"		"item_imp_claw"
+		"item"		"item_iron_talon"
+		"item"		"item_poor_mans_shield"
+		"item"		"item_ring_of_aquila"
+		"item"		"item_vambrace"			
 	}
 
 	// Level 2 - Blue Recipes
@@ -116,6 +144,11 @@
 		"item"		"item_spirit_vessel"			
 		"item"		"item_pipe"			
 		"item"		"item_guardian_greaves"
+
+		"item"		"item_faded_broach"
+		"item"		"item_arcane_ring"
+		"item"		"item_essence_ring"
+		"item"		"item_spy_gadget"
 	}
 				
 	"magics"			
@@ -135,6 +168,12 @@
 		"item"		"item_refresher"
 		"item"		"item_sheepstick"
 		"item"		"item_octarine_core"
+
+		"item"		"item_orb_of_destruction"
+		"item"		"item_ex_machina"
+		"item"		"item_demonicon"
+		"item"		"item_spell_prism"
+		"item"		"item_timeless_relic"
 	}
 		
 	// Level 3 - Purple Recipes	
@@ -155,6 +194,12 @@
 		"item"		"item_sphere"
 		"item"		"item_heart"	
 		"item"		"item_assault"
+
+		"item" 		"item_craggy_coat"
+		"item" 		"item_panic_button"
+		"item" 		"item_witless_shako"
+		"item" 		"item_spider_legs"
+		"item" 		"item_woodland_striders"
 	}
 			
 	"weapons"
@@ -174,6 +219,14 @@
 		"item"		"item_rapier"
 		"item"		"item_abyssal_blade"	
 		"item"		"item_bloodthorn"
+
+		"item"		"item_enchanted_quiver"
+		"item"		"item_havoc_hammer"
+		"item"		"item_fallen_sky"
+		"item"		"item_ninja_gear"
+		"item"		"item_ballista"
+		"item"		"item_desolator_2"
+		"item"		"item_the_leveller"
 	}
 		
 	// Level 4 - Orange / Orb / Artifacts				
@@ -194,6 +247,13 @@
  		"item"		"item_satanic"		
  		"item"		"item_skadi" 
  		"item"		"item_mjollnir"
+
+		"item"		"item_force_boots"
+		"item"		"item_illusionsts_cape"
+		"item"		"item_mirror_shield"
+		"item"		"item_pirate_hat"
+		"item"		"item_apex"
+		"item"		"item_trident"
 	}
 
 	"sideshop1"
@@ -238,6 +298,13 @@
 		"item"		"item_reaver"
 		"item"		"item_eagle"
 		"item"		"item_relic"
+		
+		"item"		"item_titan_sliver"
+		"item"		"item_princes_knife"
+		"item"		"item_paladin_sword"
+		"item"		"item_seer_stone"
+		"item"		"item_flicker"
+		"item"		"item_quickening_charm"
 	}
 
 	"pregame"
