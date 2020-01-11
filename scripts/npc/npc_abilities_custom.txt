@@ -1,0 +1,4 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+}
