@@ -420,4 +420,375 @@
 			}
 		}
 	}
+
+	//=================================================================================================================
+	//  Broom Handle
+	//=================================================================================================================
+	"item_broom_handle"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"355"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"650"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"melee_attack_range"			"35"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"		"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"		"3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Mind Breaker
+	//=================================================================================================================
+	"item_mind_breaker"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"309"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"0"
+		"AbilityCooldown"				"20.0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ancient_magic"			"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ancient_magic"			"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"		"2"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Grove Bow
+	//=================================================================================================================
+	"item_grove_bow"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"288"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+			
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1050"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_range_bonus"			"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_speed_bonus"			"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"magic_resistance_reduction"		"12"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"debuff_duration"		"6"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	//  Minotaur Horn
+	//=================================================================================================================
+	"item_minotaur_horn"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"377"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"40.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1450"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ancient_magic"			"20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"			"1.75"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Clumsy Net
+	//=================================================================================================================
+	"item_clumsy_net"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"360"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"900"
+		"AbilityCooldown"				"25.0"
+					
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"850"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"			"1.75"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ancient_magic"			"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ancient_magic"			"0"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Dragon Scale
+	//=================================================================================================================
+	"item_dragon_scale"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"358"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"800"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_hp_regen"		"5"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_per_sec"		"12"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"		"3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Keen Optic
+	//=================================================================================================================
+	"item_keen_optic"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"287"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+			
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"550"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"75"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Nether Shawl
+	//=================================================================================================================
+	"item_nether_shawl"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"357"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1150"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_magic_resistance"			"20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_spell_amp"		"8"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"		"3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Philosopher's Stone
+	//=================================================================================================================
+	"item_philosophers_stone"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"290"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_gpm"			"60"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_mana"		"200"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"		"-35"
+			}
+		}
+	}
 }

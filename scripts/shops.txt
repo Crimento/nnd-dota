@@ -66,17 +66,15 @@
 		"item"		"item_blight_stone"
 		"item"		"item_blades_of_attack"
 		"item"		"item_chainmail"
+		"item"		"item_broom_handle"
+		"item"		"item_mind_breaker"
 		"item"		"item_quarterstaff"
 		"item"		"item_helm_of_iron_will"
+		"item"		"item_grove_bow"
 		"item"		"item_javelin"
 		"item"		"item_broadsword"
-		"item"		"item_claymore"				
-		"item"		"item_mithril_hammer"	
-
-		"item"		"item_broom_handle"
-		"item"		"item_grove_bow"
-		"item"		"item_mind_breaker"
-		"item"		"item_minotaur_horn"
+		"item"		"item_claymore"
+		"item"		"item_mithril_hammer"
 	}
 			
 	"misc"
@@ -88,18 +86,18 @@
 		"item"		"item_boots"
 		"item"		"item_gloves"
 		"item"		"item_cloak"
+		"item"		"item_keen_optic"
 		"item"		"item_ring_of_tarrasque"
+		"item"		"item_dragon_scale"
+		"item"		"item_clumsy_net"
 		"item"		"item_gem"
 		"item"		"item_lifesteal"
-		"item"		"item_shadow_amulet"	
+		"item"		"item_nether_shawl"
+		"item"		"item_philosophers_stone"
+		"item"		"item_shadow_amulet"
+		"item"		"item_minotaur_horn"	
 		"item"		"item_ghost"
 		"item"		"item_blink"
-
-		"item"		"item_clumsy_net"
-		"item"		"item_dragon_scale"
-		"item"		"item_keen_optic"
-		"item"		"item_nether_shawl"
-		"item"		"item_philosophers_stone"		
 	}	
 	
 	// Level 1 - Green Recipes
