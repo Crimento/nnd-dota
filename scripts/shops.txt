@@ -138,24 +138,23 @@
 		"item"		"item_sange"
  		"item"		"item_yasha"
  		"item"		"item_kaya"
-		"item"		"item_echo_sabre"	
+		"item"		"item_illusionsts_cape"
+		"item"		"item_echo_sabre"
  		"item"		"item_maelstrom"
  		"item"		"item_diffusal_blade"			
  		"item"		"item_heavens_halberd"
  		"item"		"item_desolator"
+		"item"		"item_force_boots"
  		"item"		"item_kaya_and_sange"
  		"item"		"item_sange_and_yasha"
  		"item"		"item_yasha_and_kaya"
  		"item"		"item_satanic"		
  		"item"		"item_skadi" 
  		"item"		"item_mjollnir"
-
-		"item"		"item_force_boots"
-		"item"		"item_illusionsts_cape"
-		"item"		"item_mirror_shield"
 		"item"		"item_pirate_hat"
 		"item"		"item_apex"
 		"item"		"item_trident"
+		"item"		"item_mirror_shield"
 	}
 
 	// Level 2 - Blue Recipes
