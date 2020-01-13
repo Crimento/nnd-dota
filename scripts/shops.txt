@@ -93,10 +93,10 @@
 		"item"		"item_wraith_band"
 		"item"		"item_bracer"
 		"item"		"item_soul_ring"
+		"item"		"item_orb_of_destruction"
 		"item"		"item_power_treads"
 		"item"		"item_phase_boots"
 		"item"		"item_ring_of_aquila"
-		"item"		"item_trusty_shovel"
 		"item"		"item_imp_claw"
 		"item"		"item_oblivion_staff"
 		"item"		"item_pers"
@@ -161,15 +161,20 @@
 	// Level 2 - Blue Recipes
 	"magics"
 	{
+		"item"		"item_arcane_ring"
 		"item"		"item_magic_wand"
 		"item"		"item_ring_of_basilius"
 		"item"		"item_ironwood_tree"
 		"item"		"item_headdress"
 		"item"		"item_buckler"
+		"item"		"item_essence_ring"
 		"item"		"item_urn_of_shadows"
 		"item"		"item_tranquil_boots"
 		"item"		"item_medallion_of_courage"
+		"item"		"item_faded_broach"
+		"item"		"item_spy_gadget"
 		"item"		"item_arcane_boots"
+		"item"		"item_trusty_shovel"
 		"item"		"item_ancient_janggo"
 		"item"		"item_vladmir"	
 		"item"		"item_mekansm"					
@@ -178,21 +183,20 @@
 		"item"		"item_pipe"			
 		"item"		"item_guardian_greaves"
 
-		"item"		"item_faded_broach"
-		"item"		"item_arcane_ring"
-		"item"		"item_essence_ring"
-		"item"		"item_spy_gadget"
-
 		//defense
 
 		"item"		"item_hood_of_defiance"
 		"item"		"item_vanguard"
 		"item"		"item_blade_mail"
+		"item" 		"item_craggy_coat"
+		"item" 		"item_spider_legs"
 		"item"		"item_soul_booster"
 		"item"		"item_aeon_disk"	
 		"item"		"item_crimson_guard"		
-		"item"		"item_lotus_orb"		
+		"item"		"item_lotus_orb"
+		"item" 		"item_witless_shako"	
 		"item"		"item_black_king_bar"
+		"item" 		"item_panic_button"
 		"item"		"item_hurricane_pike"	
 		"item"		"item_shivas_guard"
 		"item"		"item_manta"
@@ -200,13 +204,8 @@
 		"item"		"item_sphere"
 		"item"		"item_heart"	
 		"item"		"item_assault"
-
-		"item" 		"item_craggy_coat"
-		"item" 		"item_panic_button"
-		"item" 		"item_witless_shako"
-		"item" 		"item_spider_legs"
 		"item" 		"item_woodland_striders"
-
+		
 		//magics
 
 		"item"		"item_glimmer_cape"
@@ -217,19 +216,17 @@
 		"item"		"item_dagon"
 		"item"		"item_cyclone"
 		"item"		"item_rod_of_atos"
+		"item"		"item_timeless_relic"
 		"item"		"item_solar_crest"
-		"item"		"item_orchid"	
+		"item"		"item_orchid"
+		"item"		"item_spell_prism"
 		"item"		"item_ultimate_scepter"
+		"item"		"item_ex_machina"
 		"item"		"item_nullifier"	
 		"item"		"item_refresher"
 		"item"		"item_sheepstick"
 		"item"		"item_octarine_core"
-
-		"item"		"item_orb_of_destruction"
-		"item"		"item_ex_machina"
 		"item"		"item_demonicon"
-		"item"		"item_spell_prism"
-		"item"		"item_timeless_relic"
 	}
 
 	"sideshop1"
