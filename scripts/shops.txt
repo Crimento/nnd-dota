@@ -17,47 +17,34 @@
 		"item"		"item_royal_jelly"
 		"item"		"item_bottle"
 		"item"		"item_greater_faerie_fire"
+		"item"		"item_gem"
 		"item"		"item_repair_kit"
 		"item"		"item_fusion_rune"
 		"item"		"item_phoenix_ash"
 	}
 
-	"attributes"
+	"weapons_armor"
 	{
+				//attrib
+
 		"item"		"item_branches"
 
 		"item"		"item_gauntlets"
 		"item"		"item_slippers"
 		"item"		"item_mantle"	
-
 		"item"		"item_circlet"
-
+		"item"		"item_ring_of_regen"
+		"item"		"item_sobi_mask"
 		"item"		"item_belt_of_strength"
 		"item"		"item_boots_of_elves"
 		"item"		"item_robe"
-
 		"item"		"item_crown"
 		"item"		"item_ocean_heart"
-
 		"item"		"item_ogre_axe"
 		"item"		"item_blade_of_alacrity"
 		"item"		"item_staff_of_wizardry"
-
 		"item"		"item_pupils_gift"
-		"item"		"item_river_painter7"	
-		"item"		"item_river_painter6"	
-		"item"		"item_river_painter5"	
-		"item"		"item_river_painter4"	
-		"item"		"item_river_painter3"	
-		"item"		"item_river_painter2"	
-		"item"		"item_river_painter"	
 
-		
-		
-	}
-
-	"weapons_armor"
-	{
 		"item"		"item_ring_of_protection"
 		"item"		"item_stout_shield"
 		"item"		"item_quelling_blade"
@@ -66,6 +53,7 @@
 		"item"		"item_blight_stone"
 		"item"		"item_blades_of_attack"
 		"item"		"item_chainmail"
+		
 		"item"		"item_broom_handle"
 		"item"		"item_mind_breaker"
 		"item"		"item_quarterstaff"
@@ -81,8 +69,6 @@
 	{
 		"item"		"item_magic_stick"
 		"item"		"item_wind_lace"
-		"item"		"item_ring_of_regen"
-		"item"		"item_sobi_mask"
 		"item"		"item_boots"
 		"item"		"item_gloves"
 		"item"		"item_cloak"
@@ -90,7 +76,6 @@
 		"item"		"item_ring_of_tarrasque"
 		"item"		"item_dragon_scale"
 		"item"		"item_clumsy_net"
-		"item"		"item_gem"
 		"item"		"item_lifesteal"
 		"item"		"item_nether_shawl"
 		"item"		"item_philosophers_stone"
@@ -101,7 +86,7 @@
 	}	
 	
 	// Level 1 - Green Recipes
-	"basics"
+	"weapons"
 	{		
 		"item"		"item_magic_wand"
 		"item"		"item_null_talisman"
@@ -122,88 +107,11 @@
 		"item"		"item_trusty_shovel"
 		"item"		"item_imp_claw"
 		"item"		"item_iron_talon"
-		"item"		"item_poor_mans_shield"
 		"item"		"item_ring_of_aquila"
-		"item"		"item_vambrace"			
-	}
+		"item"		"item_vambrace"
 
-	// Level 2 - Blue Recipes
-	"support"
-	{
-		"item"		"item_ring_of_basilius"
-		"item"		"item_headdress"
-		"item"		"item_buckler"
-		"item"		"item_urn_of_shadows"
-		"item"		"item_tranquil_boots"
-		"item"		"item_medallion_of_courage"
-		"item"		"item_arcane_boots"
-		"item"		"item_ancient_janggo"
-		"item"		"item_vladmir"	
-		"item"		"item_mekansm"					
-		"item"		"item_holy_locket"	
-		"item"		"item_spirit_vessel"			
-		"item"		"item_pipe"			
-		"item"		"item_guardian_greaves"
+		//weapons
 
-		"item"		"item_faded_broach"
-		"item"		"item_arcane_ring"
-		"item"		"item_essence_ring"
-		"item"		"item_spy_gadget"
-	}
-				
-	"magics"			
-	{
-		"item"		"item_glimmer_cape"
-		"item"		"item_veil_of_discord"		
-		"item"		"item_force_staff"
-		"item"		"item_aether_lens"
-		"item"		"item_necronomicon"
-		"item"		"item_dagon"
-		"item"		"item_cyclone"
-		"item"		"item_rod_of_atos"
-		"item"		"item_solar_crest"
-		"item"		"item_orchid"	
-		"item"		"item_ultimate_scepter"
-		"item"		"item_nullifier"	
-		"item"		"item_refresher"
-		"item"		"item_sheepstick"
-		"item"		"item_octarine_core"
-
-		"item"		"item_orb_of_destruction"
-		"item"		"item_ex_machina"
-		"item"		"item_demonicon"
-		"item"		"item_spell_prism"
-		"item"		"item_timeless_relic"
-	}
-		
-	// Level 3 - Purple Recipes	
-	"defense"
-	{
-		"item"		"item_hood_of_defiance"
-		"item"		"item_vanguard"
-		"item"		"item_blade_mail"
-		"item"		"item_soul_booster"
-		"item"		"item_aeon_disk"	
-		"item"		"item_crimson_guard"		
-		"item"		"item_lotus_orb"		
-		"item"		"item_black_king_bar"
-		"item"		"item_hurricane_pike"	
-		"item"		"item_shivas_guard"
-		"item"		"item_manta"
-		"item"		"item_bloodstone"
-		"item"		"item_sphere"
-		"item"		"item_heart"	
-		"item"		"item_assault"
-
-		"item" 		"item_craggy_coat"
-		"item" 		"item_panic_button"
-		"item" 		"item_witless_shako"
-		"item" 		"item_spider_legs"
-		"item" 		"item_woodland_striders"
-	}
-			
-	"weapons"
-	{	
 		"item"		"item_lesser_crit"	
 		"item"		"item_armlet"
 		"item"		"item_meteor_hammer"	
@@ -227,11 +135,9 @@
 		"item"		"item_ballista"
 		"item"		"item_desolator_2"
 		"item"		"item_the_leveller"
-	}
-		
-	// Level 4 - Orange / Orb / Artifacts				
-	"artifacts"
-	{	
+
+		//artifacts
+
  		"item"		"item_dragon_lance"
 		"item"		"item_sange"
  		"item"		"item_yasha"
@@ -254,6 +160,78 @@
 		"item"		"item_pirate_hat"
 		"item"		"item_apex"
 		"item"		"item_trident"
+	}
+
+	// Level 2 - Blue Recipes
+	"magics"
+	{
+		"item"		"item_ring_of_basilius"
+		"item"		"item_headdress"
+		"item"		"item_buckler"
+		"item"		"item_urn_of_shadows"
+		"item"		"item_tranquil_boots"
+		"item"		"item_medallion_of_courage"
+		"item"		"item_arcane_boots"
+		"item"		"item_ancient_janggo"
+		"item"		"item_vladmir"	
+		"item"		"item_mekansm"					
+		"item"		"item_holy_locket"	
+		"item"		"item_spirit_vessel"			
+		"item"		"item_pipe"			
+		"item"		"item_guardian_greaves"
+
+		"item"		"item_faded_broach"
+		"item"		"item_arcane_ring"
+		"item"		"item_essence_ring"
+		"item"		"item_spy_gadget"
+
+		//defense
+
+		"item"		"item_hood_of_defiance"
+		"item"		"item_vanguard"
+		"item"		"item_blade_mail"
+		"item"		"item_soul_booster"
+		"item"		"item_aeon_disk"	
+		"item"		"item_crimson_guard"		
+		"item"		"item_lotus_orb"		
+		"item"		"item_black_king_bar"
+		"item"		"item_hurricane_pike"	
+		"item"		"item_shivas_guard"
+		"item"		"item_manta"
+		"item"		"item_bloodstone"
+		"item"		"item_sphere"
+		"item"		"item_heart"	
+		"item"		"item_assault"
+
+		"item" 		"item_craggy_coat"
+		"item" 		"item_panic_button"
+		"item" 		"item_witless_shako"
+		"item" 		"item_spider_legs"
+		"item" 		"item_woodland_striders"
+
+		//magics
+
+		"item"		"item_glimmer_cape"
+		"item"		"item_veil_of_discord"		
+		"item"		"item_force_staff"
+		"item"		"item_aether_lens"
+		"item"		"item_necronomicon"
+		"item"		"item_dagon"
+		"item"		"item_cyclone"
+		"item"		"item_rod_of_atos"
+		"item"		"item_solar_crest"
+		"item"		"item_orchid"	
+		"item"		"item_ultimate_scepter"
+		"item"		"item_nullifier"	
+		"item"		"item_refresher"
+		"item"		"item_sheepstick"
+		"item"		"item_octarine_core"
+
+		"item"		"item_orb_of_destruction"
+		"item"		"item_ex_machina"
+		"item"		"item_demonicon"
+		"item"		"item_spell_prism"
+		"item"		"item_timeless_relic"
 	}
 
 	"sideshop1"
@@ -291,20 +269,19 @@
 		"item"		"item_point_booster"
 		"item"		"item_platemail"
 		"item"		"item_talisman_of_evasion"
+		"item"		"item_quickening_charm"
+		"item"		"item_paladin_sword"
 		"item"		"item_hyperstone"
 		"item"		"item_ultimate_orb"
 		"item"		"item_demon_edge"
+		"item"		"item_flicker"
+		"item"		"item_titan_sliver"
 		"item"		"item_mystic_staff"
 		"item"		"item_reaver"
 		"item"		"item_eagle"
 		"item"		"item_relic"
-		
-		"item"		"item_titan_sliver"
 		"item"		"item_princes_knife"
-		"item"		"item_paladin_sword"
 		"item"		"item_seer_stone"
-		"item"		"item_flicker"
-		"item"		"item_quickening_charm"
 	}
 
 	"pregame"
