@@ -89,26 +89,25 @@
 	"weapons"
 	{		
 		"item"		"item_magic_wand"
+		"item"		"item_ironwood_tree"
+		"item"		"item_iron_talon"
 		"item"		"item_null_talisman"
 		"item"		"item_wraith_band"
 		"item"		"item_bracer"
 		"item"		"item_soul_ring"
 		"item"		"item_power_treads"
 		"item"		"item_phase_boots"
+		"item"		"item_ring_of_aquila"
+		"item"		"item_trusty_shovel"
+		"item"		"item_imp_claw"
 		"item"		"item_oblivion_staff"
 		"item"		"item_pers"
  		"item"		"item_mask_of_madness"
  		"item"		"item_helm_of_the_dominator"	
 		"item"		"item_hand_of_midas"
+		"item"		"item_vambrace"
 		"item"		"item_travel_boots"		
 		"item"		"item_moon_shard"
-
-		"item"		"item_ironwood_tree"
-		"item"		"item_trusty_shovel"
-		"item"		"item_imp_claw"
-		"item"		"item_iron_talon"
-		"item"		"item_ring_of_aquila"
-		"item"		"item_vambrace"
 
 		//weapons
 

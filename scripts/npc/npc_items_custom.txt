@@ -46,7 +46,7 @@
 	}
 
 	//=================================================================================================================
-	// Recipe: Mango Tree
+	// Recipe: Mango Tree (first custom recipe)
 	//=================================================================================================================
 	"item_recipe_mango_tree"
 	{
@@ -1088,6 +1088,424 @@
 				"var_type"				"FIELD_INTEGER"
 				"block_chance_hero"		"100"
 			}			
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Iron Talon
+	//=================================================================================================================
+	"item_recipe_iron_talon"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"238"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.mdl"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"200"	
+		"ItemShopTags"					""
+		"ItemPurchasable"				"1"
+		"IsObsolete"					"0"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_iron_talon"
+		"ItemRequirements"
+		{
+			"01"						"item_quelling_blade;item_ring_of_protection"
+		}
+	}
+	
+	//=================================================================================================================
+	// Iron Talon
+	//=================================================================================================================
+	"item_iron_talon"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"239"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_PREFER_ENEMIES"
+
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"25.0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+		"ItemShopTags"					"damage" 
+		"ItemQuality"					"common"
+		"ItemAliases"					"quelling blade"
+		"ItemPurchasable"				"1"
+		"ItemIsNeutralDrop"				"0"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus"			"18"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus_ranged"	"5"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"quelling_range_tooltip"			"350"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_ward"			"450"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"creep_damage_pct"			"50"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	"2"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"alternative_cooldown"	"4"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Ring of Aquila
+	//=================================================================================================================
+	"item_recipe_ring_of_aquila"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"211"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		"ItemPurchasable"				"1"
+		"IsObsolete"					"0"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_ring_of_aquila"
+		"ItemRequirements"
+		{
+			"01"						"item_wraith_band;item_buckler;item_ring_of_basilius"
+		}
+	}
+
+	//=================================================================================================================
+	// Ring of Aquila
+	//=================================================================================================================
+	"item_ring_of_aquila"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"212"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"AbilityCastRange" 				"1200"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShopTags"					""
+		"ItemQuality"					"rare"
+		"ItemAliases"					"roa;ring of aquila"
+		"ItemShareability"				""		
+		"ActiveDescriptionLine"			"2"
+		"ItemPurchasable"				"1"
+		"ShouldBeSuggested"				"0"
+		"ItemSellable"					"1"
+		"ItemIsNeutralDrop"				"0"
+
+		// Sound
+		//-------------------------------------------------------------------------------------------------------------			
+		"UIPickupSound"					"Item.PickUpRingShop"
+		"UIDropSound"					"Item.DropRingShop"
+		"WorldDropSound"				"Item.DropRingWorld"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"3"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"9"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"		"3"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"0"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_radius"			"1200"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"aura_mana_regen"		"1.25"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_bonus_armor"		"2"
+			}			
+		}		
+	}
+
+	//=================================================================================================================
+	// Recipe: Trusty Shovel
+	//=================================================================================================================
+	"item_recipe_trusty_shovel"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"383"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     "item_datadriven"
+
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    	"AbilityTextureName"            "recipe"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"400"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_trusty_shovel"
+		"ItemRequirements"
+		{
+			"01"						"item_vitality_booster"
+		}
+	}
+
+	//=================================================================================================================
+	// Trusty Shovel
+	//=================================================================================================================
+	"item_trusty_shovel"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"356"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"250"
+		"AbilityCooldown"				"55.0"
+		"AbilityCastPoint"				"0.1"
+		"AbilityChannelTime"			"1"
+					
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"250"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Vambrace
+	//=================================================================================================================
+	"item_recipe_vambrace"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"329"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"510"	
+		"ItemShopTags"					""
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_vambrace"
+		"ItemRequirements"
+		{
+			"01"						"item_bracer;item_bracer"
+			"02"						"item_null_talisman;item_null_talisman"
+			"03"						"item_wraith_band;item_wraith_band"
+		}
+	}
+	
+	//=================================================================================================================
+	// Vambrace
+	//=================================================================================================================
+	"item_vambrace"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"331"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1021"
+		"ItemShopTags"					"damage;int;agi;str"
+		"ItemQuality"					"common"
+		"ItemAliases"					"bracer"
+		"ItemIsNeutralDrop"				"0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_primary_stat"		"12"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_secondary_stat"			"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_spell_amp"		"6"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_magic_resistance"	"10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"10"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Imp Claw
+	//=================================================================================================================
+	"item_recipe_imp_claw"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"384"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     "item_datadriven"
+
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    	"AbilityTextureName"            "recipe"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_imp_claw"
+		"ItemRequirements"
+		{
+			"01"						"item_broadsword;item_broadsword"
+		}
+	}
+
+	//=================================================================================================================
+	// Imp Claw
+	//=================================================================================================================
+	"item_imp_claw"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"334"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"8.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_multiplier"			"130"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"		"24"
+			}
 		}
 	}
 }

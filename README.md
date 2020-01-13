@@ -1,3 +1,5 @@
 # nnd-dota
 
-Remake of default Dota All Pick with Neutral Drops disabled.
+Remake of default Dota All Pick with buyable neutral items.
+
+Next free ID - 385.
