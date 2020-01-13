@@ -88,8 +88,6 @@
 	// Level 1 - Green Recipes
 	"weapons"
 	{		
-		"item"		"item_magic_wand"
-		"item"		"item_ironwood_tree"
 		"item"		"item_iron_talon"
 		"item"		"item_null_talisman"
 		"item"		"item_wraith_band"
@@ -163,7 +161,9 @@
 	// Level 2 - Blue Recipes
 	"magics"
 	{
+		"item"		"item_magic_wand"
 		"item"		"item_ring_of_basilius"
+		"item"		"item_ironwood_tree"
 		"item"		"item_headdress"
 		"item"		"item_buckler"
 		"item"		"item_urn_of_shadows"
