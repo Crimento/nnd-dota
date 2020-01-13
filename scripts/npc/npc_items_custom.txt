@@ -807,6 +807,7 @@
 		"ItemCost"						"1675"
 		"ItemIsNeutralDrop"				"0"
 		"ItemPurchasable"				"1"
+		"SecretShop"					"1"
 
 		"Model"							"models/props_gameplay/neutral_box.vmdl"
 		
@@ -842,6 +843,7 @@
 		"ItemCost"						"1950"
 		"ItemIsNeutralDrop"				"0"
 		"ItemPurchasable"				"1"
+		"SecretShop"					"1"
 
 		"Model"							"models/props_gameplay/neutral_box.vmdl"
 		
@@ -3490,7 +3492,7 @@
 	//=================================================================================================================
 	// Recipe: Book of the Dead
 	//=================================================================================================================
-	"item_recipe_ex_machina"
+	"item_recipe_demonicon"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
