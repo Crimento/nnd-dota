@@ -2,4 +2,4 @@
 
 Remake of default Dota All Pick with buyable neutral items.
 
-Next free ID - 385.
+Next free ID - 396.
