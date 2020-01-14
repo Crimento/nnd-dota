@@ -1,36 +1,41 @@
--- Generated from template
-
-if CAddonTemplateGameMode == nil then
-	CAddonTemplateGameMode = class({})
+if CNndDota == nil then
+    _G.CNndDota = class({})-- put CNndDota in the global scope
+--refer to: http://stackoverflow.com/questions/6586145/lua-require-with-global-local
 end
 
-function Precache( context )
-	--[[
-		Precache things we know we'll use.  Possible file types include (but not limited to):
-			PrecacheResource( "model", "*.vmdl", context )
-			PrecacheResource( "soundfile", "*.vsndevts", context )
-			PrecacheResource( "particle", "*.vpcf", context )
-			PrecacheResource( "particle_folder", "particles/folder", context )
-	]]
+function CNndDota:OnHeroPicked(event)
+	print("Hero was picked")
+    local hPlayerHero = EntIndexToHScript(event.heroindex)
+    hPlayerHero:SetContextThink("self:Think_InitializePlayerHero", function() return self:Think_InitializePlayerHero(hPlayerHero) end, 0)
 end
 
--- Create the game mode when we activate
-function Activate()
-	GameRules.AddonTemplate = CAddonTemplateGameMode()
-	GameRules.AddonTemplate:InitGameMode()
-end
-
-function CAddonTemplateGameMode:InitGameMode()
-	print( "Template addon is loaded." )
-	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 2 )
-end
-
--- Evaluate the state of the game
-function CAddonTemplateGameMode:OnThink()
-	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
-		--print( "Template addon script is running." )
-	elseif GameRules:State_Get() >= DOTA_GAMERULES_STATE_POST_GAME then
-		return nil
+function CNndDota:Think_InitializePlayerHero( hPlayerHero )
+	if not hPlayerHero then
+		return 0.1
 	end
-	return 1
+
+	hPlayerHero:GetPlayerOwner():CheckForCourierSpawning( hPlayerHero )
+
+	return
+end
+
+function Precache(context)
+
+end
+
+function Activate()
+    -- When you don't have access to 'self', use 'GameRules.herodemo' instead
+    -- example Function call: GameRules.herodemo:Function()
+    -- example Var access: GameRules.herodemo.m_Variable = 1
+    GameRules.nnddota = CNndDota()
+    GameRules.nnddota:InitGameMode()
+end
+
+function CNndDota:InitGameMode()
+    print("Initializing NND mode")
+	local GameMode = GameRules:GetGameModeEntity()
+	GameRules:GetGameModeEntity():SetFreeCourierModeEnabled(true)
+	GameRules:GetGameModeEntity():SetUseDefaultDOTARuneSpawnLogic(true)
+	
+    ListenToGameEvent("dota_player_pick_hero", Dynamic_Wrap(CNndDota, "OnHeroPicked"), self)
 end
