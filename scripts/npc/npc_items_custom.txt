@@ -473,9 +473,9 @@
 			
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"0"
-		"ItemIsNeutralDrop"				"1"
-		"ItemPurchasable"				"0"
+		"ItemCost"						"775"
+		"ItemIsNeutralDrop"				"0"
+		"ItemPurchasable"				"1"
 		"AbilityCooldown"				"20.0"
 
 		"Model"							"models/props_gameplay/neutral_box.vmdl"
@@ -2802,7 +2802,7 @@
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"250"	
+		"ItemCost"						"2250"	
 		"ItemShopTags"					""
 		
 		// Recipe
@@ -2846,12 +2846,12 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"attack_range"	"150"
+				"attack_range"	"250"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cast_range"	"125"
+				"cast_range"	"225"
 			}
 			"04"
 			{
@@ -3020,7 +3020,7 @@
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"100"	
+		"ItemCost"						"1000"	
 		"ItemShopTags"					""
 		
 		// Recipe
