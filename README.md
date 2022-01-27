@@ -1,5 +1,9 @@
 # nnd-dota
 
+
+## ABANDONED since Valve added dedicated slot to neutral items and kinda balanced them
+
+
 ### A little less RNG for our beloved child.
 
 My first attempt at making Dota addons. Workshop description translated to English and Russian, but should work for every language.
